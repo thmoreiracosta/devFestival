@@ -5,7 +5,16 @@ module.exports = {
     './index.html',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        blue: {
+          100: '#0000FF',          
+        },
+        fontFamily: {
+          poppins: ['Poppins', 'sans-serif'],
+        }
+      }
+    },
   },
   plugins: [],
 }
