@@ -10,6 +10,9 @@ module.exports = {
         blue: {
           100: '#0000FF',          
         },
+        violet: {
+          100: '#A5A5FF'
+        },
         fontFamily: {
           poppins: ['Poppins', 'sans-serif'],
         }

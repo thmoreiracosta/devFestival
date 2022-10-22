@@ -3,17 +3,21 @@ import pato from '../assets/pato.png';
 
 export function Main() {
   return (
-    <main className='flex gap-40 max-h-8 w-full mt-20 justify-center'>
+    <div className='flex gap-60 mt-20 justify-center'>
       <div className=''>
-        <img src={pato} alt="" />
-        <h1 className="text-4xl text-blue-100 font-bold "
+        <img
+          className='max-h-12 mb-4'
+          src={pato}
+          alt=""
+        />
+        <h1 className="text-6xl text-blue-100 font-bold p-2"
         >
           &lt;Dev/&gt;
         </h1>
-        <h2 className='text-4xl text-black font-bold'>
+        <h2 className='text-6xl text-black font-bold p-3 mb-4'>
           Festival
         </h2>
-        <button className="bg-blue-100 text-white rounded-[255px] w-[274px] h-[61px]">
+        <button className="bg-blue-100 text-white text-lg rounded-[255px] w-[274px] h-[61px]">
           Quero meu ingresso!
         </button>
       </div>
@@ -22,9 +26,10 @@ export function Main() {
         <img
           className='w-[415px] h-[590px]'
           src={festival_dev}
-          alt=""           
-          />
-      </div>
-    </main>
+          alt=""
+        />
+      </div>      
+    </div>
+    
   )
 }
